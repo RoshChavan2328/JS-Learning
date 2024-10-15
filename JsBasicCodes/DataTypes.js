@@ -11,15 +11,13 @@ let adharNo=null;        //Null   //type=object
 console.table([name,age,isGraduated,address,adharNo],[typeof(name),typeof(age),typeof(isGraduated),typeof(address),typeof(adharNo)]);
 console.table([
     { Property: "Name", Value: name, Type: typeof(name) },
-    { Property: "Age", Value: age, Type: typeof(age) },
+    { Property: "Age", Value: age, Type: typeof age },
     { Property: "Is Graduated", Value: isGraduated, Type: typeof(isGraduated) },
     { Property: "Address", Value: address, Type: typeof(address) },
     { Property: "Adhar No", Value: adharNo, Type: typeof(adharNo) }
   ]);
 
-  console.table([
-    {Property : "Name", value:name,Type:typeof(name)},
-    {Property : "age", value : age,Type:typeof(age)}]
-  )
+ 
 
   /*Non Primitive datatypes  */
+  //objects ,arrays
