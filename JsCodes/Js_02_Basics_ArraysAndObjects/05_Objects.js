@@ -10,3 +10,11 @@ let person = {
    so we cann call them directly using variable name rather than using object.variablename */
 let {name : firstname,age,city}=person;
 console.log(firstname);
+
+//Checking Empty Object
+
+let emptyObject={};
+if(Object.keys(emptyObject).length===0){
+  console.log("emptyObject  is empty");
+  
+}
