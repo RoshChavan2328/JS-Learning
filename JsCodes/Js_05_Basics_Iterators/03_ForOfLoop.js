@@ -9,10 +9,11 @@ for (let val of arr1) {
 // without worrying about the index (cleaner and more readable than a traditional for-loop).
 
 // Example 2: Using 'for...of' with a Map
-let mapOfCountries = new Map();
+let mapOfCountries = new Map();                 
 mapOfCountries.set("ind", "India");
 mapOfCountries.set("usa", "United States Of America");
 mapOfCountries.set("uk", "United Kingdom");
+mapOfCountries.set("rus", "Russia");
 
 // Iterating over the Map object using 'for...of'
 for (let [key, value] of mapOfCountries) {
